@@ -37,6 +37,7 @@ class _PagesState extends State<Pages> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
+        elevation: 100,
         shape: const CircularNotchedRectangle(),
         notchMargin: 10,
         child: SizedBox(
@@ -85,7 +86,7 @@ class _PagesState extends State<Pages> {
                             color: currentTab == 1 ? Colors.blue : Colors.black,
                           ),
                           Text(
-                            "Wishlist",
+                            "Wishlist ",
                             style: TextStyle(
                               color:
                                   currentTab == 1 ? Colors.blue : Colors.black,

@@ -17,8 +17,10 @@ class _HomePageState extends State<HomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Image.network(
-                "https://media.istockphoto.com/id/1301565382/photo/paleo-diet-healthy-food-background.webp?b=1&s=170667a&w=0&k=20&c=R2-QUt0xU5cHxki212UNl2SScduFFvLVTKBP_Jy6PX8="),
+            Stack(
+              alignment: Alignment.center,
+              children: [Image.asset("assets/uchburchak.png"), Image.asset("assets/yozuv.png"),]),
+                
             const Padding(
               padding: EdgeInsets.all(20.0),
               child: Text(
